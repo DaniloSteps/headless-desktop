@@ -1,0 +1,8 @@
+services:
+    headless-desktop:
+        container_name: headless-desktop
+        build: ./docker/
+        volumes:
+            - "./conecc.remmina:/home/conecc.remmina:ro"
+        # environment:
+        #   - TZ=America/Sao_Paulo
