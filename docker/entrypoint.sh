@@ -8,4 +8,4 @@ rm -rf /tmp/*
 export DISPLAY=:0.0
 
 # Start dummy video driver and Remmina
-./usr/libexec/Xorg | remmina -c /home/conecc.remmina
+./usr/libexec/Xorg | remmina -c /home/config/connection.remmina
